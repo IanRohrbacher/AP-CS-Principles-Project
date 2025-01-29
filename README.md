@@ -1,5 +1,5 @@
-# AP CS A Project
-My high school offered AP CS A and for the final test there was a coding portion for the grade
+# AP CS Principles Project
+This project was submited for the 2021 AP CS Principles AP coding portion of the test.
 
 
 ## What is the Project?
