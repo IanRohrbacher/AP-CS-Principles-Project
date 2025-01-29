@@ -12,7 +12,7 @@ The project is a recreation of Yahtzee using Pygame. I also utilized 'pickle' wh
 - Installing Pygame uses pip which can be followed in the Pygame instructions or [here](https://pip.pypa.io/en/stable/).
 
 ### Running
-Open either the 'rng' game or the 'rigged' game folder and run the program in your desired python environment.
+Download either the 'rng' or 'rigged' folder and open it in your desired python environment and run it.
 
 
 ## Features
