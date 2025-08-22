@@ -1,23 +1,44 @@
 # AP CS Principles Project
-This project was submited for the 2021 AP CS Principles AP coding portion of the test.
+Submitted for the 2021 AP CS Principles coding portion of the AP test.
 
 
-## What is the Project?
-The project is a recreation of Yahtzee using Pygame. I also utilized 'pickle' which will store and display the highest score. There are two folders with the same structure. One, rng, is a purely random game of Yahtzee. The other, rigged, is a scripted game where the outcome of the dice, for the most part, are static. The rigged game was used to demonstrate every feature programmed.
+## Project Overview
+This is a full recreation of [Yahtzee](https://grail.sourceforge.net/demo/yahtzee/rules.html) using Python and Pygame. The project demonstrates use of file storage with `pickle` to save and display the highest score.
+
+There are two versions included:
+- **rng/**: Standard Yahtzee with random dice rolls. Tracks and saves your best score.
+- **rigged/**: Scripted version where dice outcomes are mostly static. Used to demo all features for grading.
 
 
-## Getting started
-### Installing
-- You will need Pygame which you can install using [this](https://www.pygame.org/wiki/GettingStarted). <br>
-- Installing Pygame uses pip which can be followed in the Pygame instructions or [here](https://pip.pypa.io/en/stable/).
+## Getting Started
+### Requirements
+- Python 3.x
+- [Pygame](https://www.pygame.org/wiki/GettingStarted) (install with `pip install pygame`)
 
-### Running
-Download either the 'rng' or 'rigged' folder and open it in your desired python environment and run it.
-
+### Running the Game
+1. Choose either the `rng` or `rigged` folder.
+2. Open a terminal in that folder.
+3. Run:
+	```
+	python main.py
+	```
 
 ## Features
-The program is, from my understanding, a one to one recreation of [Yahtzee](https://grail.sourceforge.net/demo/yahtzee/rules.html). It also displays a breakdown of your score and saves the highest score when playing the rng game. 
+- One-to-one recreation of Yahtzee gameplay
+- Score breakdown display
+- High score saving (in `rng` version)
+- Simple graphics using Pygame
 
 
-## Licensing
-The code in this project is licensed under MIT license.
+## Notes
+- The `rigged` version is for demonstration/testing only.
+- The `rng` version is the standard game.
+
+
+---
+> **REFERENCE ONLY:**
+> This project was submitted for the 2021 AP CS Principles coding portion of the AP test. Provided for reference only.
+---
+
+## License
+The code in this project is licensed under the MIT license.
